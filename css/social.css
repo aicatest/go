@@ -1,0 +1,12 @@
+.social__item {
+  display: inline-block;
+  margin-right: 26px;
+}
+
+.social__item:last-child {
+  margin-right: 0;
+}
+
+.social__link {
+  display: block;
+}

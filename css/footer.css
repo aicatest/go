@@ -1,0 +1,74 @@
+.address{
+  margin-bottom: 40px;
+}
+
+.address__list {
+  max-width: 350px;
+}
+
+.address__item {
+  position: relative;
+  padding-left: 71px;
+}
+
+.address__street {
+  position: relative;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.16;
+  margin-bottom: 38px;
+
+}
+
+.address__item::before {
+  content:"";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 35px;
+  height: 32px;
+
+}
+
+.address__street::before {
+  background: url(../image/contacts/location.svg);
+
+}
+
+.address__street-name {
+  display: block;
+  margin-left: 71px;
+}
+.address__phone {
+  margin-bottom: 11px;
+}
+
+.address__phone::before {
+  background: url(../image/contacts/phone-call.svg);
+}
+.address__phone-link,
+.address__mail-link {
+  display: block;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.16;
+  text-decoration: none;
+}
+
+.address__phone-link:hover,
+.address__phone-link:focus,
+.address__phone-link:active,
+.address__mail-link:hover,
+.address__mail-link:focus,
+.address__mail-link:active {
+  color: #43d4e1;
+}
+
+.address__mail::before {
+  background: url(../image/contacts/envelope.svg);
+
+}

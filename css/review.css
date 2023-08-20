@@ -1,0 +1,39 @@
+.review {
+}
+
+.review__list {
+}
+
+.review__item {
+  position: relative;
+}
+
+.review__item:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.review__image {
+  max-width: 280px;
+  text-align: center;
+}
+
+.review__img {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.review__name {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.review__text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 680px;
+  margin-left: 300px;
+}

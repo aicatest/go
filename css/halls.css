@@ -1,0 +1,46 @@
+.halls {
+  text-align: center;
+}
+
+.halls__item {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.halls__item:not(:last-child) {
+  margin-bottom: 60px;
+}
+
+.halls__item-one {
+  background-image: url(../image/halls/hall-1.jpg);
+
+}
+
+.halls__item-two {
+  background-image: url(../image/halls/hall-2.jpg);
+
+}
+
+.halls__item-three {
+  background-image: url(../image/halls/hall-3.jpg);
+
+}
+
+.halls__item-four {
+  background-image: url(../image/halls/hall-4.jpg);
+
+}
+
+.halls__link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 275px 0;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+}
