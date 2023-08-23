@@ -2,7 +2,8 @@
 }
 
 .review__list {
-  width: 980px;
+  max-width: 980px;
+  margin: 0 auto;
 }
 
 .review__item {
@@ -15,6 +16,7 @@
 
 .review__image {
   display: inline-block;
+  margin-right: 15px;
 }
 
 .review__img {
@@ -36,5 +38,4 @@
   vertical-align: top;
   display: inline-block;
   padding-top: 100px;
-  padding-left: 20px;
 }

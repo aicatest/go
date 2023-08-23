@@ -2,10 +2,18 @@
   margin-bottom: 40px;
 }
 
+.about__item {
+  display: inline-block;
+}
+
 .about__item:first-of-type {
-  float: left;
-  clear: both;
-  margin-right: 80px;
+  font-size: 0;
+  max-width: 600px;
+  margin-right: 75px;
+}
+
+.about__item:last-of-type {
+  max-width: 500px;
 }
 
 .about__description {
