@@ -4,6 +4,7 @@
 
 .about__item:first-of-type {
   float: left;
+  clear: both;
   margin-right: 80px;
 }
 
@@ -19,6 +20,10 @@
 
 .about__description:last-of-type {
   margin-bottom: 60px;
+}
+
+.about__pictures {
+  object-position: left;
 }
 
 .blockquote__text {

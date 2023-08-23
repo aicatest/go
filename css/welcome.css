@@ -2,12 +2,12 @@
 
 }
 
-.welcome--container {
+.welcome__container {
   position: relative;
   min-height: 823px;
 }
 
-.welcome--container::before {
+.welcome__container::before {
   content: "";
   position: absolute;
   right: 30px;
