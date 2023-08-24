@@ -1,13 +1,6 @@
-.review {
-}
-
 .review__list {
   max-width: 980px;
   margin: 0 auto;
-}
-
-.review__item {
-
 }
 
 .review__item:not(:last-child) {
@@ -24,6 +17,10 @@
   height: 280px;
   border-radius: 50%;
   object-fit: cover;
+}
+
+.review__img_position_top {
+  object-position: top;
 }
 
 .review__name {
