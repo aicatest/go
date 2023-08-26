@@ -1,4 +1,8 @@
-.address{
+.footer__container {
+  margin-bottom: 156px;
+}
+
+.address {
   margin-bottom: 40px;
 }
 
@@ -17,11 +21,10 @@
   font-weight: 700;
   line-height: 1.16;
   margin-bottom: 38px;
-
 }
 
 .address__item::before {
-  content:"";
+  content: "";
   position: absolute;
   left: 0;
   top: 50%;
@@ -31,12 +34,10 @@
   background-size: cover;
   width: 35px;
   height: 32px;
-
 }
 
 .address__street::before {
   background: url(../image/contacts/location.svg);
-
 }
 
 .address__street-name {
@@ -70,5 +71,23 @@
 
 .address__mail::before {
   background: url(../image/contacts/envelope.svg);
+}
 
+.footer__bottom {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.footer__bottom-text {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.14;
+}
+
+.footer__copyright {
+  margin-bottom: 6px;
 }

@@ -1,5 +1,4 @@
 .welcome {
-
 }
 
 .welcome__container {
@@ -31,4 +30,54 @@
   font-size: 28px;
   font-weight: 400;
   padding-left: 100px;
+}
+
+.welcome__heading {
+  margin-bottom: 30px;
+}
+
+.welcome__info {
+  display: flex;
+  margin-bottom: 150px;
+}
+
+.welcome__info-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome__info-item:first-of-type {
+  margin-right: 43px;
+  text-align: center;
+}
+
+.welcome__info-item-accent {
+  color: #cd06ff;
+  font-size: 100px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.welcome__info-item-text {
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.welcome__info-item-text:first-of-type {
+  max-width: 193px;
+}
+
+.welcome__info-item-accent:last-of-type {
+  font-size: 75px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-variant: all-small-caps;
+}
+
+.welcome__button {
+  width: 374px;
+  height: 80px;
+  font-size: 26px;
+  background: #6c0287;
 }
