@@ -8,8 +8,22 @@
 }
 
 .review__image {
+  position: relative;
   display: inline-block;
   margin-right: 15px;
+}
+
+.review__image:before {
+  content: "";
+  display: block;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent;
+  background-image: radial-gradient(50% 50.00% at 50% 50.00%, rgba(196, 196, 196, 0.00) 0%, rgba(108, 2, 135, 0.50) 100%)
 }
 
 .review__img {
