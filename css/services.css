@@ -19,7 +19,11 @@
 .services__item {
   position: relative;
   font-size: 0;
+}
 
+.services__item:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
 }
 
 .services__link {

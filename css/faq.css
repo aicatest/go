@@ -40,8 +40,10 @@
 
 .faq__link:hover .faq__item::after {
   background: url(../image/faq/open-hover.svg) no-repeat right center;
+  transition: background 0.2s ease-in-out;
 }
 
 .faq__link:active .faq__item::after {
   background: url(../image/faq/open-active.svg) no-repeat right center;
+  transition: background 0.2s ease-in-out;
 }

@@ -60,15 +60,6 @@
   text-decoration: none;
 }
 
-.address__phone-link:hover,
-.address__phone-link:focus,
-.address__phone-link:active,
-.address__mail-link:hover,
-.address__mail-link:focus,
-.address__mail-link:active {
-  color: #43d4e1;
-}
-
 .address__mail::before {
   background: url(../image/contacts/envelope.svg);
 }

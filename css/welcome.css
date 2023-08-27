@@ -28,7 +28,7 @@
 .welcome__link::after {
   content: "";
   position: absolute;
-  background: url(../image/down.svg);
+  background-image: url(../image/down.svg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 97px;
@@ -36,9 +36,10 @@
 }
 
 .welcome__link:hover .welcome__link::after {
-  background: url(../image/down-hover.svg);
+  background-image: url(../image/down-hover.svg);
   width: 97px;
   height: 97px;
+  transition: background-image 0.2s ease-in-out;
 
 }
 
@@ -108,12 +109,15 @@
 
 .welcome__button:hover {
   background: #840aa3;
+  transition: background 0.2s ease-in-out;
 }
 
 .welcome__button:active {
   background: #640aa3;
+  transition: background 0.2s ease-in-out;
 }
 
 .welcome__button:focus {
   background: #840aa3;
+  transition: background 0.2s ease-in-out;
 }

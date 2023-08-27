@@ -86,16 +86,19 @@
 .halls__input-label:hover {
   border: 3px solid #640aa3;
   background: #eadeed;
+  transition: border 0.2s, background 0.2s ease-in-out;
 }
 
 .halls__input-label:active {
   border: 3px solid #fff;
   background: #6c0287;
+  transition: border 0.2s, background 0.2s ease-in-out;
 }
 
 .halls__input-label:focus {
   border: 3px solid #fff;
   background: #6c0287;
+  transition: border 0.2s, background 0.2s ease-in-out;
 }
 
 .form__legend-title {
@@ -205,22 +208,27 @@
 .form__button:hover {
   border: 3px solid #6c0287;
   background: #eadeed;
+  transition: border 0.2s, background 0.2s ease-in-out;
 }
 
 .form__button:active {
   background: #eadeed;
+  transition: background 0.2s ease-in-out;
 }
 
 .form__button:focus {
   border: 3px solid #6c0287;
   background: #fff;
+  transition: border 0.2s, background 0.2s ease-in-out;
 }
 
 .form__input:focus {
   border: 2px solid #cd06ff;
+  transition: border 0.2s ease-in-out;
 }
 
 [type="radio"]:focus,
 [type="checkbox"]:focus {
   border: 1px solid #cd06ff;
+  transition: border 0.2s ease-in-out;
 }
