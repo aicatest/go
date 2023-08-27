@@ -15,28 +15,23 @@
 .halls__item-one {
   background-image: url(../image/halls/hall-1.jpg);
   object-position: left top;
-
 }
 
 .halls__item-two {
   background-image: url(../image/halls/hall-2.jpg);
   object-position: right top;
-
 }
 
 .halls__item-three {
   background-image: url(../image/halls/hall-3.jpg);
   object-position: left bottom;
   margin-bottom: 0;
-
-
 }
 
 .halls__item-four {
   background-image: url(../image/halls/hall-4.jpg);
   object-position: right bottom;
   margin-bottom: 0;
-
 }
 
 .halls__item {
@@ -54,7 +49,6 @@
   margin-right: 0;
 }
 
-
 .halls__link {
   display: block;
   width: 100%;
@@ -64,6 +58,22 @@
   font-size: 70px;
   font-weight: 700;
   line-height: 1.14;
+  background-color: #fff;
   text-transform: uppercase;
+  border: 3px solid transparent;
+}
 
+.halls__link:hover {
+  border: 3px solid #640aa3;
+  background: #eadeed;
+}
+
+.halls__link:active {
+  border: 3px solid #fff;
+  background: #6c0287;
+}
+
+.halls__link:focus {
+  border: 3px solid #fff;
+  background: #6c0287;
 }

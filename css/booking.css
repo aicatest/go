@@ -106,7 +106,6 @@
   gap: 32px;
 }
 
-
 .form__inputs-wrapper {
   width: 300px;
 }
@@ -170,7 +169,6 @@
   width: 134px;
 }
 
-
 .form__button {
   display: flex;
   align-items: center;
@@ -186,4 +184,28 @@
   font-weight: 700;
   line-height: 1.27;
   text-transform: uppercase;
+  border: 3px solid transparent;
+}
+
+.form__button:hover {
+  border: 3px solid #6c0287;
+  background: #eadeed;
+}
+
+.form__button:active {
+  background: #eadeed;
+}
+
+.form__button:focus {
+  border: 3px solid #6c0287;
+  background: #fff;
+}
+
+.form__input:focus {
+  border: 2px solid #cd06ff;
+}
+
+[type="radio"]:focus,
+[type="checkbox"]:focus {
+  border: 1px solid #cd06ff;
 }

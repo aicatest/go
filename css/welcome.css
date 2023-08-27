@@ -18,6 +18,30 @@
   height: 762px;
 }
 
+.welcome__link {
+  position: absolute;
+  bottom: 187px;
+  left: 50%;
+  transform: translateY(-50%);
+}
+
+.welcome__link::after {
+  content: "";
+  position: absolute;
+  background: url(../image/down.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 97px;
+  height: 97px;
+}
+
+.welcome__link:hover .welcome__link::after {
+  background: url(../image/down-hover.svg);
+  width: 97px;
+  height: 97px;
+
+}
+
 .title {
   text-align: center;
   font-size: 150px;
@@ -80,4 +104,16 @@
   height: 80px;
   font-size: 26px;
   background: #6c0287;
+}
+
+.welcome__button:hover {
+  background: #840aa3;
+}
+
+.welcome__button:active {
+  background: #640aa3;
+}
+
+.welcome__button:focus {
+  background: #840aa3;
 }

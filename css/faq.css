@@ -37,3 +37,11 @@
   width: 50px;
   height: 50px;
 }
+
+.faq__link:hover .faq__item::after {
+  background: url(../image/faq/open-hover.svg) no-repeat right center;
+}
+
+.faq__link:active .faq__item::after {
+  background: url(../image/faq/open-active.svg) no-repeat right center;
+}
