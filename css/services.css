@@ -1,4 +1,5 @@
 .services {
+  margin-bottom: 70px;
 }
 
 .services__title {
@@ -19,6 +20,14 @@
 .services__item {
   position: relative;
   font-size: 0;
+}
+
+.services__item:nth-child(2) {
+  transform: translateY(70px);
+}
+
+.services__item:nth-child(5) {
+  transform: translateY(70px);
 }
 
 .services__item:hover {
