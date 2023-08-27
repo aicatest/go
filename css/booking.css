@@ -68,7 +68,7 @@
   margin-bottom: 60px;
 }
 
-.form__fieldset-buttons .form__input-label {
+.halls__input-label {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,6 +81,21 @@
   font-weight: 700;
   line-height: 1.33;
   text-transform: uppercase;
+}
+
+.halls__input-label:hover {
+  border: 3px solid #640aa3;
+  background: #eadeed;
+}
+
+.halls__input-label:active {
+  border: 3px solid #fff;
+  background: #6c0287;
+}
+
+.halls__input-label:focus {
+  border: 3px solid #fff;
+  background: #6c0287;
 }
 
 .form__legend-title {

@@ -58,22 +58,7 @@
   font-size: 70px;
   font-weight: 700;
   line-height: 1.14;
-  background-color: #fff;
   text-transform: uppercase;
   border: 3px solid transparent;
 }
 
-.halls__link:hover {
-  border: 3px solid #640aa3;
-  background: #eadeed;
-}
-
-.halls__link:active {
-  border: 3px solid #fff;
-  background: #6c0287;
-}
-
-.halls__link:focus {
-  border: 3px solid #fff;
-  background: #6c0287;
-}
