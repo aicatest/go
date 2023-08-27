@@ -1,3 +1,6 @@
+.footer {
+  background: linear-gradient(180deg, var(--color-dark) 0%, #370a37 100%);
+}
 .footer__container {
   margin-bottom: 156px;
 }
@@ -71,7 +74,7 @@
 }
 
 .footer__bottom-text {
-  color: #fff;
+  color: var(--color-white);
   font-family: Arial, sans-serif;
   font-size: 14px;
   font-style: normal;

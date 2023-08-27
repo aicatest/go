@@ -1,5 +1,5 @@
 .booking {
-  background: #440f51;
+  background: var(--color-purple);
 }
 
 .booking-form {
@@ -75,7 +75,7 @@
   width: 250px;
   height: 55px;
   border-radius: 8px;
-  background-color: #fff;
+  background-color: var(--color-white);
   color: #000;
   font-size: 30px;
   font-weight: 700;
@@ -84,20 +84,20 @@
 }
 
 .halls__input-label:hover {
-  border: 3px solid #640aa3;
-  background: #eadeed;
+  border: 3px solid var(--color-purple-active);
+  background: var(--color-light-hover);
   transition: border 0.2s, background 0.2s ease-in-out;
 }
 
 .halls__input-label:active {
-  border: 3px solid #fff;
-  background: #6c0287;
+  border: 3px solid var(--color-white);
+  background: var(--color-lightpurple);
   transition: border 0.2s, background 0.2s ease-in-out;
 }
 
 .halls__input-label:focus {
-  border: 3px solid #fff;
-  background: #6c0287;
+  border: 3px solid var(--color-white);
+  background: var(--color-lightpurple);
   transition: border 0.2s, background 0.2s ease-in-out;
 }
 
@@ -194,8 +194,8 @@
   margin-left: auto;
   width: 300px;
   height: 60px;
-  background: #fff;
-  color: #6c0287;
+  background: var(--color-white);
+  color: var(--color-lightpurple);
   font-family: Arial, sans-serif;
   font-size: 22px;
   font-style: normal;
@@ -206,29 +206,29 @@
 }
 
 .form__button:hover {
-  border: 3px solid #6c0287;
-  background: #eadeed;
+  border: 3px solid var(--color-lightpurple);
+  background: var(--color-light-hover);
   transition: border 0.2s, background 0.2s ease-in-out;
 }
 
 .form__button:active {
-  background: #eadeed;
+  background: var(--color-light-hover);
   transition: background 0.2s ease-in-out;
 }
 
 .form__button:focus {
-  border: 3px solid #6c0287;
-  background: #fff;
+  border: 3px solid var(--color-lightpurple);
+  background: var(--color-white);
   transition: border 0.2s, background 0.2s ease-in-out;
 }
 
 .form__input:focus {
-  border: 2px solid #cd06ff;
+  border: 2px solid var(--color-main);
   transition: border 0.2s ease-in-out;
 }
 
 [type="radio"]:focus,
 [type="checkbox"]:focus {
-  border: 1px solid #cd06ff;
+  border: 1px solid var(--color-main);
   transition: border 0.2s ease-in-out;
 }

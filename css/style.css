@@ -1,3 +1,15 @@
+:root {
+  --color-main: #cd06ff;
+  --color-purple: #440f51;
+  --color-lightpurple: #6c0287;
+  --color-purple-hover: #840aa3;
+  --color-purple-active: #640aa3;
+  --color-light-hover: #eadeed;
+  --color-dark: #1b1a1b;
+  --color-white: var(--color-white);
+
+}
+
 html {
   position: relative;
   box-sizing: border-box;
@@ -15,8 +27,8 @@ body {
   font-family: Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  background-color: #1b1a1b;
-  color: #ffffff;
+  background-color: var(--color-dark);
+  color:var(--color-white);
 }
 
 img,
@@ -82,7 +94,7 @@ footer {
   padding: 0;
   margin: 0;
   margin-bottom: 50px;
-  color: #fff;
+  color: var(--color-white);
   text-align: center;
   font-family: Arial, sans-serif;
   font-size: 40px;
@@ -92,7 +104,7 @@ footer {
 }
 
 .button {
-  color: #fff;
+  color: var(--color-white);
   font-family: Arial, sans-serif;
   font-style: normal;
   border-radius: 10px;
